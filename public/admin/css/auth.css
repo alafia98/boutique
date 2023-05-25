@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.login-box .alert {
+    margin: 10% 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-box .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 0 0 30px 0 #6f42c1;
+}
+
+.login-box .card .card-header, .login-box .card .card-body{
+    padding: 10px;
+}
+
+.login-box .card .card-header .title {
+    color: #6610f2;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: xx-large;
+    text-shadow: 0 0 20px #6f42c1;
+    text-align: center;
+}
+
+.login-box .card .card-body .message {
+    font-size: larger;
+    font-style: italic;
+}
+
+.login-box .card form {
+    padding: 30px;
+}
+
+.login-box .card .input-group {
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.login-box .card form .input-group input {
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.login-box .card form .input-group i {
+    margin-right: 5px;
+}
+
+.login-box .card form .btn {
+    display: flex;
+}
+
+.login-box .card form .btn button {
+    padding: 10px;
+    background-color: #6f42c1;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    width: 50%;
+    border: 1px solid transparent;
+}
+
+.login-box .card form .btn button:hover {
+    background-color: white;
+    border: 1px solid #6f42c1;
+    color: #6610f2;
+    cursor: pointer;
+    transition: .7s;
+}
+
+
+.error {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 80%;
+    box-shadow: 0 0 60px 0px red inset;
+    text-align: center;
+    font-weight: 900;
+}
+
+.error h4, .error h4 i {
+    font-weight: 900;
+    color: red;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.error h4 {
+    margin-left: 20px;
+    text-align: center;
+}
+
